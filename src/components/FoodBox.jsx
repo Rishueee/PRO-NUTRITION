@@ -1,5 +1,5 @@
 import React from 'react'
-import Calories from './TotalCalories'
+import Calories from './totalCalories'
 import { useState } from 'react'
 import '../App.css'
 const Box = (props) => {
@@ -32,7 +32,7 @@ const Box = (props) => {
             </div>
             <div>
                 <h3>{props.food.name}</h3>
-                <h5>Single {props.food.name} Calories => {props.food.cal}</h5>
+                <h5>Single {props.food.name} Calories = {props.food.cal}</h5>
             </div>
             <div>
                 <input type="number" placeholder='Enter a number' defaultValue={totalnum} onChange={(e)=>change(e.target.value)}/>
