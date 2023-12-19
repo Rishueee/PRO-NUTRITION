@@ -1,0 +1,86 @@
+.foodbox {
+    margin: 20px;
+  }
+  
+  .foodboxin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+ 
+  
+  .foodboxin img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 15px;
+  }
+  
+ 
+  
+  .text-container h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .text-container h5 {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    width: 40px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .makeitzero {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .makeitzero:hover,
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .searchbox{
+    margin-left: 37vw;
+    width: 25vw;
+  }
+
+  h2{
+    text-align: center;
+  }
+
