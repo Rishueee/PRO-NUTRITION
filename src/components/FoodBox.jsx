@@ -1,5 +1,5 @@
 import React from 'react'
-import Calories from './totalCalories'
+import Calories from './Totalcalories'
 import { useState } from 'react'
 import '../App.css'
 const Box = (props) => {
